@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doksli AI — Solusi Kecerdasan Buatan Terpercaya</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- 1. Navbar / Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Doksli<span>AI</span></a>
+            <nav class="nav-menu">
+                <a href="#layanan">Layanan</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#kontak">Kontak</a>
+                <!-- Link ke halaman lain proyek -->
+                <a href="blog.html" class="nav-link-other">Blog AI</a>
+                <a href="cv.html" class="nav-link-other">CV</a>
+            </nav>
+            <a href="#kontak" class="btn btn-primary nav-cta">Konsultasi</a>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Teknologi AI Masa Depan</span>
+                <h1>Solusi Cerdas untuk Deteksi Hoax & Analisis Dokumen</h1>
+                <p>Doksli AI membantu Anda menyaring informasi palsu, mencari dokumen asli secara instan, hingga konsultasi meme berbasis teks dengan presisi tinggi.</p>
+                <div class="hero-buttons">
+                    <a href="#layanan" class="btn btn-primary">Lihat Layanan</a>
+                    <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ai-card-glow">
+                    <h3>⚡ Doksli Engine v2.4</h3>
+                    <p>Sistem aktif dan siap memproses data teks Anda secara real-time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Layanan Section -->
+    <section id="layanan" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Layanan Unggulan Kami</h2>
+                <p>Tiga pilar solusi AI yang dirancang khusus untuk kebutuhan digital Anda.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Layanan 1 -->
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Deteksi Hoax</h3>
+                    <p>Uji kebenaran teks atau berita secara instan menggunakan teknologi NLP mutakhir untuk menimpa dan menganalisis manipulasi informasi.</p>
+                </div>
+                <!-- Layanan 2 -->
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>Cari Doksli</h3>
+                    <p>Mesin pencari dokumen asli pintar yang mempermudah pelacakan arsip, referensi, dan file penting tanpa ribet.</p>
+                </div>
+                <!-- Layanan 3 -->
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3>Konsultasi Meme</h3>
+                    <p>Layanan konsultasi kreatif berbasis AI untuk menganalisis, mengoptimalkan, dan menimpa teks meme agar lebih edukatif dan menghibur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Tentang / Keunggulan Section -->
+    <section id="tentang" class="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>Mengapa Memilih Doksli AI?</h2>
+                <p>Kami adalah pionir dalam menyediakan solusi kecerdasan buatan yang ramah pengguna, cepat, dan akurat. Klien dari berbagai sektor mempercayakan keamanan informasi dan kreativitas digital mereka kepada kami.</p>
+                <ul class="about-list">
+                    <li>✔️ Keakuratan analisis teks hingga 98.5%</li>
+                    <li>✔️ Keamanan data privasi klien terjamin</li>
+                    <li>✔️ Dukungan teknis dan konsultasi 24/7</li>
+                </ul>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>10M+</h3>
+                    <p>Teks Dianalisis</p>
+                </div>
+                <div class="stat-box">
+                    <h3>99.9%</h3>
+                    <p>Uptime Sistem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Kontak / Call to Action Section -->
+    <section id="kontak" class="contact">
+        <div class="container contact-container">
+            <div class="section-title">
+                <h2>Mulai Konsultasi Bersama Kami</h2>
+                <p>Punya pertanyaan atau ingin mencoba layanan Doksli AI? Kirimkan pesan Anda sekarang.</p>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Pesan berhasil dikirim!');">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" placeholder="nama@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan / Kebutuhan</label>
+                    <textarea id="pesan" rows="4" placeholder="Ceritakan kebutuhan AI Anda..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Doksli<span>AI</span></a>
+                <p>Solusi cerdas untuk masa depan digital yang bebas hoax.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Menu Cepat</h4>
+                <a href="#layanan">Layanan</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#kontak">Kontak</a>
+                <a href="blog.html">Blog AI</a>
+                <a href="cv.html">CV Pembuat</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Doksli AI. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
